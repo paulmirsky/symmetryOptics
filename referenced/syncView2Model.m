@@ -45,7 +45,7 @@ classdef syncView2Model  < handle
                 controlTag = this.syncList{ii,1};
                 buttonHandle = findobj(this.figChildren, 'Tag', controlTag);
                 set(buttonHandle, 'UserData', {this, 'fig2uic'});
-                set(buttonHandle, 'Callback', {'activateController04'});  
+                set(buttonHandle, 'Callback', {'activateControllerGUI'});  
             end                            
             
         % function end

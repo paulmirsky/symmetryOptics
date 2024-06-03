@@ -3,7 +3,7 @@ close all
 clc
 
 con = SnS_controller;
-con.figPosVec = [200, 100, 1400, 900]; % set size, as appropriate for your monitor      
+con.figPosVec = [50, 50, 1000, 600]; % set size, as appropriate for your monitor      
 con.initialize();
 con.view.setFont(16, 'Calibri'); % set font size to look right on your monitor   
 
